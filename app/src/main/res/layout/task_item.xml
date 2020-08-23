@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/task_layout">
+
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="@dimen/generic_padding"/>
+
+    <TextView
+        android:id="@+id/task_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="07/23/2020"
+        android:textColor="#000000"
+        android:paddingLeft="@dimen/generic_padding"/>
+
+    <TextView
+        android:id="@+id/task_is_compeleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completed"
+        android:paddingLeft="@dimen/generic_padding"
+        android:paddingBottom="@dimen/generic_padding"/>
+
+</LinearLayout>
